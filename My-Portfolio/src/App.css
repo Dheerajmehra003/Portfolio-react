@@ -1,0 +1,17 @@
+.header{
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.fontstyle{
+    font-weight: 700;
+}
+.d-flex{
+  margin-right: 30px;
+  gap: 30px;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+}

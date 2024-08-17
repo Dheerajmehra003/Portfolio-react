@@ -1,0 +1,49 @@
+.ContactContainer{
+    margin-top: 200px;
+    background-color: rgba(43,45,46,0.5);
+    padding: 40px;
+}
+.contactinfo{
+    text-align: center;
+}
+.contactlayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.layoutsideone{
+       display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    width: 100%;
+}
+.layoutsidetwo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.inputstyle{
+    width: 500px;
+}
+.btn{
+    border-radius: 5px;
+}
+.messagestyle{
+   min-height:100px;
+    padding-top: 10px;
+    width: 100%;
+}
