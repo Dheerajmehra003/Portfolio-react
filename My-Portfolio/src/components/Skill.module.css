@@ -1,0 +1,18 @@
+.skillcontainer{
+   margin-top: 100px;
+}
+h2{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.skill{
+    height: 100px;
+    width: 100px;
+}

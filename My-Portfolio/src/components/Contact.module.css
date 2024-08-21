@@ -1,5 +1,5 @@
 .ContactContainer{
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: rgba(43,45,46,0.5);
     padding: 40px;
 }
@@ -12,6 +12,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 150px;
+    flex-wrap: wrap;
 }
 .layoutsideone{
        display: flex;
@@ -19,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .number{
     display: flex;
@@ -28,16 +30,17 @@
     border: 1px solid black;
     padding: 15px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .layoutsidetwo{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-  
+  flex-wrap: wrap;
 }
 .inputstyle{
-    width: 500px;
+    width: 20rem;
 }
 .btn{
     border-radius: 5px;

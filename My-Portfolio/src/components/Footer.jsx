@@ -1,42 +1,35 @@
 import React from "react";
+import styles from './Footer.module.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
-    <div>
-      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
-        <div className="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          >
-            <svg className="bi" width="30" height="24">
-              <use xlinkHref="#bootstrap"></use>
-            </svg>
-          </a>
-          <span className="mb-3 mb-md-0 text-body-secondary">
-            {" "}
-            Developed by Dheeraj © 2024{" "}
+    <div className={styles.footercontainer}>
+        <div >
+          <span>
+            Developed by Dheeraj © 2024
           </span>
         </div>
 
-        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <ul>
           <li>
-            <FaFacebookSquare className="icon" />
+           <a style={{backgroundColor:"white"}} href="https://www.facebook.com/dheeraj.mehra.77398143/" target="_blank" >
+           <FaFacebookSquare className="icon" /></a>
           </li>
           <li>
-            <FaInstagramSquare className="icon"  />
+           <a style={{backgroundColor:"white"}} href="https://www.instagram.com/dheerajmehra003/" target="_blank">
+           <FaInstagramSquare className="icon"  /></a>
           </li>
-          <li>
+          <li> <a style={{backgroundColor:"white"}} href="https://www.linkedin.com/in/dheeraj-mehra-350429284/"  target="_blank">
           <FaLinkedin  className="icon"/>
+          </a>
           </li>
-          <li>
-          <FaGithub className="icon" />
+          <li><a  style={{backgroundColor:"white"}} href="https://github.com/Dheerajmehra003"  target="_blank">
+          <FaGithub className="icon" /></a>
           </li>
         </ul>
-      </footer>
     </div>
   );
 }

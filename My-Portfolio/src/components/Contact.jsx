@@ -4,9 +4,10 @@ import { IoCall } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 
-function Contact() {
+
+function Contact(props) {
   return (
-    <div className={styles.ContactContainer}>
+    <div  id={props.id} className={styles.ContactContainer}>
       <div className={styles.contactinfo}>
         Get-In-Touch
         <h1>CONTACT</h1>
@@ -27,7 +28,7 @@ function Contact() {
           </div>
         </div>
         <div className={styles.layoutsidetwo}>
-          <form>
+          <form action="https://formsubmit.co/dheerajsinghmehra0405@gmail.com" method="POST">
           <label>First Name</label><br/>
           <input
             className={styles.inputstyle}

@@ -1,14 +1,26 @@
 .aboutcontainer{
-    margin-top: 200px;
     display: flex;
-    gap: 50px;
+    gap: 3.5rem;
     justify-content: center;
     align-items: center;   
+    flex-wrap: wrap;
 }
 .aboutinfo{
+    margin-top:6rem;
     font-weight: 400;
+    padding: 1rem;
+}
+.imagecontainer{
+    margin-top:9rem;
 }
 .btn{
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 0.5rem;
+    margin-top: 0.8rem;
+    background-color:black;
+    color: white !important;
+    padding: 0.4rem 0.8rem;
 }
+.btn:hover{
+    background-color: gray;
+}
+ 
