@@ -1,6 +1,6 @@
 .ContactContainer{
-    margin-top: 100px;
-    background-color: rgba(43,45,46,0.5);
+  padding: 5rem;
+  background-color: gray;
     padding: 40px;
 }
 .contactinfo{
@@ -49,4 +49,12 @@
    min-height:100px;
     padding-top: 10px;
     width: 100%;
+}
+@media(max-width:768px){
+    .contactlayout{
+        gap: 10px;
+    }
+    .ContactContainer{
+        padding: 20px;
+    }
 }

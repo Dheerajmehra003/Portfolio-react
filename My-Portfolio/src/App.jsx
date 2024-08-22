@@ -1,21 +1,26 @@
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Projectfigma from "./components/projectfigma";
+import Projecthtml from "./components/Projecthtml";
+import Projectreact from "./components/Projectreact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
-      <Profile />
-      <About id="About" />
-      <Projects id="Project" />
-      <Skills id="Skill" />
-      <Contact id="Contact" />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path="/projecthtml" element={<Projecthtml />} />
+          <Route path="/projectreact" element={<Projectreact />} />
+          <Route path="/projectfigma" element={<Projectfigma />} />
+        </Routes>
+      </BrowserRouter>
+
       <Footer />
     </>
   );

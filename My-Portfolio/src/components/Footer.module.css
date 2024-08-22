@@ -5,5 +5,30 @@
     width: 100%;
     border-bottom: 1px solid black;
     padding: 15px 7%;
-    background-color: white;
+  
+}
+
+
+a{
+    color: black !important;
+}
+.icon{
+  height: 2rem;
+  width: 2rem;
+}
+span{
+    font-size: 1.5rem;
+  
+}
+@media(max-width:768px){
+    .icon{
+        height: 16px;
+        width: 16px;
+    }
+    span{
+        font-size: 10px;
+    }
+    ul li{
+        margin-right: 2px !important;
+    }
 }

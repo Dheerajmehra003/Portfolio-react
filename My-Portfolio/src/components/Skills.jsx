@@ -9,6 +9,7 @@ import git from './images/git.png'
 import figma from './images/figma.jpg'
 import bootstrap from './images/bootstrap.jpg'
 
+
 function Skills(props) {
   return (
     <div id={props.id} className={styles.skillcontainer}>

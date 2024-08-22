@@ -1,6 +1,6 @@
 .skillcontainer{
-   margin-top: 100px;
-}
+ padding: 5rem;
+   }
 h2{
     text-align: center;
 }
@@ -15,4 +15,17 @@ h2{
 .skill{
     height: 100px;
     width: 100px;
+}
+@media(max-width:768px){
+    .skillcontainer{
+        padding: 20px;
+    }
+    .skills{
+        padding: 30px;
+        gap: 5px;
+    }
+    .skill{
+        height: 50px;
+        width: 50px;
+    }
 }

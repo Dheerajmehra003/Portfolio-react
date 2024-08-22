@@ -1,38 +1,81 @@
-.imgcontainer{
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: center center;
-    margin: 20px;
-    box-shadow: 0 5px 5px rgba(13,110, 253, 0.6);
-    animation: animate 5s ease-in-out infinite;
-    transition: all 1s ease-in-out;
-}
-.projectinfo{
-    text-align: center;
+
+.profileinfo{
+    font-size: 2rem;
+    color: white;
 }
 .profilecontainer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    justify-content: right;
+    align-items: right;
+    gap: 5rem;
     flex-wrap: wrap;
-    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    flex-direction: row-reverse;
+    background: linear-gradient(137deg, #1E4E97 0%, #1E1B78 50%, #6D1A75 100%);
 }
 .iconscontainer{
     display: flex;
     gap: 10px;
     flex-wrap:wrap ;
+    color: white;
+}
+#iconinfo{
+    font-size: 1.5rem;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+}
+.heading{
+    font-size: 5rem;
+    background: -webkit-linear-gradient(#bbba72, #dd7937);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imgcontainer{
+   height: 500px;
+   width:  500px;
+}
+@media(max-width:768px){
+    .profilecontainer{
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .heading{
+        font-size: 30px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .profileinfo{
+        font-size: 20px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .iconscontainer{
+        justify-content: center;
+    }
+    #iconinfo{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    .profilecontainer{
+        gap: 0;
+    }
+    .imagecontainer{
+        height: 350px;
+        width: 350px;
+    }
+    br{
+        display: none;
+    }
 }
 
-@keyframes animate {
-    0%,  100% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%
-    }
-    50% {
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
-    
-}
+
+
+

@@ -1,15 +1,17 @@
 import React from "react";
 import styles from "./About.module.css";
-import mycomputer from "./images/computers.jpeg";
+import about from "./about.json"
+
+import Lottie from "lottie-react"
 
 function About(props) {
   return (
     <div id={props.id} className={styles.aboutcontainer}>
       <div className={styles.imagecontainer}>
-        <img className={styles.aboutimage} src={mycomputer} />
+      <Lottie className={styles.aboutimage} animationData={about}/>
       </div>
       <div className={styles.aboutinfo}>
-        <h3>ABOUT ME</h3>
+        <h3 className={styles.aboutheading}>ABOUT ME</h3>
         <p>
           Recently graduated with a bachelor's degree in computer application.
           <br />

@@ -1,25 +1,22 @@
 .headercontainer{
+    background-color: #4e73df;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     border-bottom: 1px solid black;
     padding: 15px 7%;
-    background-color: white;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 ul{
+    display: flex;
      list-style: none;
      text-align: center;
      margin: 0;
      margin-bottom: 0 !important;
     
+    
 }
 ul li{
-    flex: 1;
-    display: inline-block;
     margin-right: 20px;
     font-size: 20px;
     cursor: pointer;
@@ -29,14 +26,18 @@ nav{
     font-weight: 700;
     font-size: 2rem;
 }
+.active{
+    color: white;
+}
 a{
     text-decoration: none !important;
-    color: black !important;
+    color: white;
     padding: 2px;
+
 }
-a:active,a:hover{
- color: gray;
- border-bottom: 0.1rem solid gray;
+a:hover{
+ color: white;
+ border-bottom: 0.1rem solid white;
  padding-bottom: 0.2rem;
          
 }
@@ -44,7 +45,50 @@ a:active,a:hover{
     display: none;
 }
 
-/* @media(max-width: 768px){
+@media(max-width: 768px){
     .menubtn{
-        display: inline-block;
-    } */
+
+        display:block;
+    } 
+    nav{
+        font-size: 20px;
+    }
+
+    .headercontainer{
+        padding-bottom: 10px;
+
+    }
+    .list{
+        flex-direction: column;
+        position: absolute;
+        width: 250px;
+        height: 230px;
+        top: -800px;
+        right: 0;
+        background-color: #4e73df;
+        justify-content: center;
+        border: 1px solid black;
+        z-index: 10;
+    }
+    .listactive{
+        flex-direction: column;
+        gap: 2px;
+        position: absolute;
+        width: 250px;
+        top: 56px;
+        right: 0;
+        background-color: #4e73df;
+        border: 1px solid black;
+        z-index: 10;
+        align-items: center;
+        
+    }
+    li{
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+      #icon{
+        width: 25px;
+        height: 25px;
+    }
+}

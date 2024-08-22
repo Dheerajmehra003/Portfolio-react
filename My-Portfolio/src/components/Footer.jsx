@@ -15,19 +15,19 @@ function Footer() {
 
         <ul>
           <li>
-           <a style={{backgroundColor:"white"}} href="https://www.facebook.com/dheeraj.mehra.77398143/" target="_blank" >
-           <FaFacebookSquare className="icon" /></a>
+           <a href="https://www.facebook.com/dheeraj.mehra.77398143/" target="_blank" >
+           <FaFacebookSquare className={styles.icon} /></a>
           </li>
           <li>
-           <a style={{backgroundColor:"white"}} href="https://www.instagram.com/dheerajmehra003/" target="_blank">
-           <FaInstagramSquare className="icon"  /></a>
+           <a  href="https://www.instagram.com/dheerajmehra003/" target="_blank">
+           <FaInstagramSquare className={styles.icon}  /></a>
           </li>
-          <li> <a style={{backgroundColor:"white"}} href="https://www.linkedin.com/in/dheeraj-mehra-350429284/"  target="_blank">
-          <FaLinkedin  className="icon"/>
+          <li> <a href="https://www.linkedin.com/in/dheeraj-mehra-350429284/"  target="_blank">
+          <FaLinkedin  className={styles.icon} />
           </a>
           </li>
-          <li><a  style={{backgroundColor:"white"}} href="https://github.com/Dheerajmehra003"  target="_blank">
-          <FaGithub className="icon" /></a>
+          <li><a  href="https://github.com/Dheerajmehra003"  target="_blank">
+          <FaGithub className={styles.icon}  /></a>
           </li>
         </ul>
     </div>
