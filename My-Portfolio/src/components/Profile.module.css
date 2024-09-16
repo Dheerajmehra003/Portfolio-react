@@ -44,9 +44,14 @@
         padding-bottom: 50px;
     }
     .heading{
+        display: flex;
         font-size: 30px;
+        justify-content: center;
+        gap: 15px;
         padding-left: 20px;
-        text-align: center;
+        align-items: center;
+        padding-left: 20px;
+        
     }
     .profileinfo{
         font-size: 20px;
@@ -71,9 +76,7 @@
         height: 350px;
         width: 350px;
     }
-    br{
-        display: none;
-    }
+   
 }
 
 

@@ -9,7 +9,7 @@
 }
 .aboutinfo{
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: 1rem;
     color: white;
     padding-top: 5rem;
@@ -22,9 +22,11 @@
     -webkit-text-fill-color: transparent;
 }
 .aboutimage{
-    padding-top: 1rem;
-    height: 25rem;
-    width: 25rem;
+
+}
+.aboutimage{
+    height: 30rem;
+    width: 35rem;
 }
 .btn{
     border-radius: 0.5rem;

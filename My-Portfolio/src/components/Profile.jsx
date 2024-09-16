@@ -17,10 +17,10 @@ function Profile() {
   return (
     <>
       <div className={styles.profilecontainer}>
-        <div>
+        <div className={styles.profilefont}>
           <h1 className={styles.heading}>
-            React <br />
-            Developer
+          <p> React </p>
+          <p> Developer</p>
           </h1>
           <p className={styles.profileinfo}>
             Hi I am Dheeraj Mehra. A passionate Front-end react <br />
@@ -28,7 +28,7 @@ function Profile() {
           </p>
           <div className={styles.iconscontainer}>
             <p id={styles.iconinfo}>Tech Stack</p>
-            <FaHtml5 className={styles.icon} />
+            <FaHtml5 className={styles.icon}  />
             <SiJavascript className={styles.icon} />
             <IoLogoCss3 className={styles.icon} />
             <FaReact className={styles.icon} />

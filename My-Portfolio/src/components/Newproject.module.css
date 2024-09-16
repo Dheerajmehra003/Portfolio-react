@@ -3,6 +3,9 @@
     text-align: center;
     font-weight: 600;
     padding-top: 2rem;
+    background: -webkit-linear-gradient(#bbba72, #dd7937);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    
 }
 .projectscontainer{

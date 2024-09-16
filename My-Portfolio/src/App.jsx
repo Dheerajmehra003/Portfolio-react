@@ -1,4 +1,5 @@
 import "./App.css";
+import EcommerceProject from "./components/EcommerceProject";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projecthtml" element={<Projecthtml />} />
           <Route path="/projectreact" element={<Projectreact />} />
           <Route path="/projectfigma" element={<Projectfigma />} />
+          <Route path="/projectecommerce" element={<EcommerceProject />} />
         </Routes>
       </BrowserRouter>
 
